@@ -16,4 +16,7 @@ The plugin supports for Android Platform not iOS and Web for now.
 
 ## How to install
 Install the plugin into your Capacitor project with npm.
-    npm install --save capacitor-firebase-upload-file
+
+```
+node npm install --save capacitor-firebase-upload-file
+```
