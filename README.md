@@ -36,4 +36,4 @@ this.result = (
         fileFirestorageURL: 'plugin/'
         })
     ).response;
-```
+```JS
