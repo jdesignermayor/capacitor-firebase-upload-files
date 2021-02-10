@@ -21,5 +21,19 @@ Install the plugin into your Capacitor project with npm.
 npm install --save coru-uploadfiles-plugin@0.0.1
 ```
 
-## How to Config
-In process..
+## How to use
+
+```
+TypeSript
+
+import 'coru-uploadfiles-plugin';
+const { uploadFiles } = Plugins;
+
+this.result = (
+        await uploadFiles.uploadFirebaseStorageFile({
+        fileLocalName: fileName,
+        fileNewName: 'newfile.mp4',
+        fileFirestorageURL: 'plugin/'
+        })
+    ).response;
+```
