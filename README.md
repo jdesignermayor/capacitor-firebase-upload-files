@@ -23,17 +23,24 @@ npm install --save coru-uploadfiles-plugin@0.0.1
 
 ## How to use
 
-```
-TypeSript
-
+Import the capacitor plugin 
+```js:
 import 'coru-uploadfiles-plugin';
 const { uploadFiles } = Plugins;
 
-this.result = (
-        await uploadFiles.uploadFirebaseStorageFile({
-        fileLocalName: fileName,
-        fileNewName: 'newfile.mp4',
-        fileFirestorageURL: 'plugin/'
-        })
-    ).response;
-```JS
+```
+
+Use the plugin
+```js:
+this.result = ( await uploadFiles.uploadFirebaseStorageFile({
+            fileLocalName: fileName,
+            fileNewName: 'newfile.mp4',
+            fileFirestorageURL: 'plugin/'
+    })).response;
+```
+
+## Parameters
+
+| fileLocalName      |Name with which previously saved due                         |
+| fileNewName        |Name of the file to be saved to storage, example: myfile.mp4 |
+| fileFirestorageURL |Firebase Storage URL of the file to be saved to storage, example: /myfiles/ |
