@@ -40,7 +40,8 @@ this.result = ( await uploadFiles.uploadFirebaseStorageFile({
 ```
 
 ## Parameters
-
+| parameter |   |
+|----------|:-:|
 | fileLocalName      |Name with which previously saved due                         |
 | fileNewName        |Name of the file to be saved to storage, example: myfile.mp4 |
 | fileFirestorageURL |Firebase Storage URL of the file to be saved to storage, example: /myfiles/ |
