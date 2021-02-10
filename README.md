@@ -18,7 +18,7 @@ The plugin supports for Android Platform not iOS and Web for now.
 Install the plugin into your Capacitor project with npm.
 
 ```
-npm install --save coru-uploadfiles-plugin@0.0.1
+npm install --save coru-uploadfiles-plugin@0.0.2
 ```
 
 ## How to use
